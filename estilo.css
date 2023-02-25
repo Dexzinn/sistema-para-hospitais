@@ -59,14 +59,14 @@ input#lupa {
 }
 
 #anuncios img {
-    margin-left: 15px;
+    margin: 0 15px 0 15px
 }
 
 #plano h2 {
     color: #247E89;
-    margin: 20px 50px;
+    margin: 40px 35px;
 }
 
 #plano p {
-    margin: 15px 30px;
+    margin: 5px 35px;
 }
