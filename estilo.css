@@ -49,11 +49,24 @@ section#pesq_menu {
 
 input#search {
     background-color: #BCBCBB;
-    width: 250px;
+    width: 178px;
 }
 
 input#lupa {
     background-color: #0097B2;
     border-radius: 100%;
     color: #fff;
+}
+
+#anuncios img {
+    margin-left: 15px;
+}
+
+#plano h2 {
+    color: #247E89;
+    margin: 20px 50px;
+}
+
+#plano p {
+    margin: 15px 30px;
 }
