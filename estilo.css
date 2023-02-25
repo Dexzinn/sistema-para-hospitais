@@ -53,6 +53,10 @@ section#pesq_menu {
     height: 35px;
 }
 
+#pesq_menu {
+    display: none;
+}
+
 input#search {
     background-color: #BCBCBB;
     width: 178px;
@@ -73,6 +77,10 @@ input#lupa:hover {
     margin: 1px 0 0 28px;
 }
 
+#anuncios #img_tablet {
+    display: none;
+}
+
 #plano h2 {
     color: #247E89;
     margin: 40px 35px;
@@ -80,4 +88,36 @@ input#lupa:hover {
 
 #plano p {
     margin: 5px 35px;
+}
+
+/*TABLET*/
+
+@media (min-width: 426px) and (max-width: 768px) {
+
+    section#pesq_menu {
+        display: none;
+    }
+
+    #menu_medicos {
+        margin: 10px 0 30px 0;
+    }
+
+    #anuncios img {
+        display: none;
+    }
+
+    #anuncios #img_tablet {
+        display: block;
+        margin: 1px 0 0 20px;
+    }
+    
+    #pesq_menu {
+        display: block;
+        margin: 5px 0 0 -40px;
+    }
+
+    #pesq_menu #search {
+        background-color: #fff;
+    }
+   
 }
