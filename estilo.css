@@ -59,7 +59,7 @@ input#lupa {
 }
 
 #anuncios img {
-    margin: 1px 0 0 29px;
+    margin: 1px 0 0 28px;
 }
 
 #plano h2 {
@@ -69,8 +69,4 @@ input#lupa {
 
 #plano p {
     margin: 5px 35px;
-}
-
-#anuncios {
-    background-color: red;
 }
