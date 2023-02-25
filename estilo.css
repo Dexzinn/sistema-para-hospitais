@@ -11,10 +11,10 @@ header {
     background-color: #5CE1E6 ;
     display: flex;
     justify-content: space-between;
-    height: 55px;
+    height: 75px;
 }
 #logo h3 {
-    margin: 13px 0 0 50px
+    margin: 27px 0 0 50px
 }
 div#entrar_cadastro {
     color: #fff;
@@ -22,10 +22,38 @@ div#entrar_cadastro {
     width: 80px;
     height: 30px;
     border-radius: 12px;
-    margin: 11px 15px 0 0;
+    margin: 22px 15px 0 0;
     line-height: 30px;
 }
 
 #entrar_cadastro h4 {
     margin-left: 6px;
+}
+
+section#pesq_menu {
+    margin: 20px 50px ;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#pesq_menu form {
+    margin-top: 15px;
+}
+
+#pesq_menu form > input {
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    height: 35px;
+}
+
+input#search {
+    background-color: #BCBCBB;
+    width: 250px;
+}
+
+input#lupa {
+    background-color: #0097B2;
+    border-radius: 100%;
+    color: #fff;
 }
