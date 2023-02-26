@@ -46,12 +46,12 @@ div#entrar_cadastro:hover {
 /* MENU DE MÉDICOS*/
 
 #menu_medicos {
-    display: block;
+    display: none;
     position: absolute;
     margin: -15px 0 0 0;
 }
 #menu_medicos ul {
-    background-color: #fd1010;
+    background-color: #bbbbbb;
     width: 150%;
 }
 #menu_medicos ul > li {
