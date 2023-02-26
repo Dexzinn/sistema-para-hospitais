@@ -49,24 +49,18 @@ div#entrar_cadastro:hover {
     display: none;
     position: absolute;
     margin: -15px 0 0 0;
-
 }
-
 #menu_medicos ul {
-    background-color: #c5c4c4;
+    background-color: #fd1010;
     width: 150%;
 }
-
 #menu_medicos ul > li {
     text-align: center;
 }
-
 #menu_medicos ul > li > a {
     color: #545454;
-    line-height: 30px;
-    
+    line-height: 30px; 
 }
-
 #menu_medicos ul > h2 {
     color: #00B685;
     text-align: center;
