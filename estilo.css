@@ -46,7 +46,7 @@ div#entrar_cadastro:hover {
 /* MENU DE MÉDICOS*/
 
 #menu_medicos {
-    display: none;
+    display: block;
     position: absolute;
     margin: -15px 0 0 0;
 }
