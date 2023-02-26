@@ -35,7 +35,45 @@ div#entrar_cadastro:hover {
     color: white;
 }
 
+#icon {
+    z-index: 1;
+}
 
+#icon img {
+    margin: 10px 5px ;
+}
+
+/* MENU DE MÉDICOS*/
+
+#menu_medicos {
+    display: none;
+    position: absolute;
+    margin: -15px 0 0 0;
+
+}
+
+#menu_medicos ul {
+    background-color: #E4E4E4;
+    width: 150%;
+}
+
+#menu_medicos ul > li {
+    text-align: center;
+}
+
+#menu_medicos ul > li > a {
+    color: #545454;
+    line-height: 30px;
+    
+}
+
+#menu_medicos ul > h2 {
+    color: #00B685;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*FIM MENU DE MÉDICOS*/
 section#pesq_menu2 {
     margin: 20px 50px ;
     text-align: center;
