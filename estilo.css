@@ -57,14 +57,19 @@ div#entrar_cadastro:hover {
 #menu_medicos ul > li {
     text-align: center;
 }
+
+#menu_medicos ul > li:hover {
+    background-color: rgb(238, 238, 238);
+}
+
 #menu_medicos ul > li > a {
-    color: #545454;
+    color: #4b4848;
     line-height: 30px; 
 }
 #menu_medicos ul > h2 {
     color: #00B685;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /*FIM MENU DE MÉDICOS*/
@@ -74,8 +79,14 @@ section#pesq_menu2 {
     font-size: 16pt;
 }
 
+#pesq_menu2  h1 {
+    margin-bottom: 20px;
+}
+
 #pesq_menu2 form {
-    margin-top: 15px;
+    margin: auto;
+    margin-left: 50px;
+    display: flex;
 }
 
 #pesq_menu2 form > input {
@@ -83,8 +94,8 @@ section#pesq_menu2 {
     border: none;
     outline: none;
     height: 35px;
+    text-indent: 10px; 
 }
-
 
 #pesq_menu {
     display: none;
@@ -95,14 +106,18 @@ input#search {
     width: 178px;
 }
 
-input#lupa {
-    background-color: #0097B2;
+button#lupa {
+    background:  #0097B2 url(imgs/icons8-pesquisar-24.png) no-repeat center center;
     border-radius: 100%;
     color: #fff;
     cursor: pointer;
+    content: none;
+    width: 40px;
+    height: 40px;
+    border: none;
 }
 
-input#lupa:hover {
+button#lupa:hover {
     background-color: rgba(51, 51, 51, 0.479);
 }
 
@@ -111,6 +126,16 @@ input#lupa:hover {
 }
 
 #anuncios #img_tablet {
+    display: none;
+}
+#anuncios #img_laptop {
+    display: none;
+}
+#anuncios #img_pc {
+    display: none;
+}
+
+#anuncios #img_pc_large {
     display: none;
 }
 
@@ -125,7 +150,7 @@ input#lupa:hover {
 
 /*TABLET*/
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px) {
 
     section#pesq_menu {
         display: none;
@@ -144,13 +169,160 @@ input#lupa:hover {
         margin: 1px 0 0 20px;
     }
     
-    #pesq_menu {
-        display: block;
-        margin: 5px 0 0 -40px;
+    #pesq_menu form {
+        margin: auto;
+        margin-left: 50px;
+        display: flex;
+        }
+
+    #pesq_menu form > input {
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        height: 35px;
+        text-indent: 10px; 
     }
 
+    #pesq_menu {
+        display: none;
+        margin: auto;
+    }
+
+    #pesq_menu2 form {
+        margin: auto;
+        margin-left: 230px;
+        display: flex;
+    }
+
+    #menu_medicos {
+        margin: -15px 0 0 0;
+    }
+    
+    section#plano h2 {
+        text-align: center;
+}
+
+
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+    section#pesq_menu {
+        display: none;
+    }
+
+    #menu_medicos {
+        margin: 10px 0 30px 0;
+    }
+
+    #anuncios img {
+        display: none;
+    }
+
+    #anuncios #img_laptop {
+        display: block;
+        margin: 2px 55px 0 20px;
+    }
+    
+    #pesq_menu form {
+        margin: auto;
+        margin-left: 50px;
+        display: flex;
+        }
+
+    #pesq_menu form > input {
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        height: 35px;
+        text-indent: 10px;
+        
+    }
+
+    #pesq_menu {
+        display: none;
+        margin: auto;
+    }
+
+    #pesq_menu2 form {
+        margin: auto;
+        margin-left: 280px;
+        display: flex;
+    }
+    
     #pesq_menu #search {
-        background-color: #fff;
+        background-color: #ffffff;
+        width: 178px;
     }
    
+    #pesq_menu2 #search {
+        width: 358px;
+    }
+    #menu_medicos {
+        margin: -15px 0 0 0;
+    
+}
+
+    section#plano h2 {
+    text-align: center;
+}   
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    section#pesq_menu {
+        display: none;
+    }
+
+    #menu_medicos {
+        margin: 10px 0 30px 0;
+    }
+
+    #anuncios img {
+        display: none;
+    }
+
+
+    #anuncios #img_pc {
+        display: block;
+        margin: 2px 55px 0 20px;
+    }
+    
+    #pesq_menu form {
+        margin: auto;
+        margin-left: 50px;
+        display: flex;
+        }
+
+    #pesq_menu form > input {
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        height: 35px;
+        text-indent: 10px;
+        
+    }
+
+
+    #pesq_menu2 form {
+        margin: auto;
+        margin-left: 480px;
+        display: flex;
+    }
+    
+    #pesq_menu #search {
+        background-color: #ffffff;
+        width: 350px;
+    }
+   
+    
+    #pesq_menu2 #search {
+        width: 350px;
+    }
+    #menu_medicos {
+        margin: -15px 0 0 0;
+    
+}
+
+    section#plano h2 {
+    text-align: center;
+}   
 }

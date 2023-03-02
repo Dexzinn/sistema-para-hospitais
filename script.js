@@ -1,5 +1,6 @@
 var potinhos = document.getElementById('icon')
 
+
 function menuClicar() {
     if(menu_medicos.style.display == 'block') {
         menu_medicos.style.display = 'none'
